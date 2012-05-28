@@ -1,0 +1,11 @@
+* Update arms2.js with new version number
+* Update install.rdf with new version number
+* zip -r arms2-???.xpi -x@exclude.lst chrome.manifest content defaults skin install.rdf
+* Create new entry in update-neat.rdf by copying and pasting.  Update version number.
+* openssl sha1 arms2-???.xpi 
+* Copy result of openssl into new entry in update-neat.rdf
+* Copy update-neat.rdf to update.rdf 
+* Open McCoy (the Borogroves + phone area code)
+* Sign update.rdf using McCoy Arms2 key
+* diff update.rdf and update-neat.rdf to check the signature has really changed
+Upload to web

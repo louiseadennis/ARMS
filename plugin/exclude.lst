@@ -1,0 +1,4 @@
+*.svn*
+*.DS_Store*
+update.rdf
+exclude.lst

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<!-- Required Items -->
+		<em:id>{F2FD0C32-523B-4e77-AC94-AE077EE7A46A}</em:id>
+		<em:name>ARMS/2</em:name>
+		<em:type>2</em:type>
+		<em:version>1.1</em:version>
+		<em:optionsURL>chrome://arms2/content/options.xul</em:optionsURL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.5</em:minVersion>
+				<em:maxVersion>12.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<!-- Optional Items -->
+		<em:creator>haliphax</em:creator>
+		<em:iconURL>chrome://arms2/content/icon.gif</em:iconURL>
+		<em:description>Information repository tool for Urban Dead. (Creative Commons license: by-nc-nd)</em:description>
+		<em:homepageURL>http://www.dennis-sellers.com/arms/arms2</em:homepageURL>
+		<em:updateURL>https://secure.bluehost.com/~dennisse/arms/arms2/update.rdf</em:updateURL>
+		<em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDByvG1vCtVmqyQzamLHOWs+8DV+AKMF83q6YcX8ly5xEIqxDYQstxuI515Vzhl/4XAJnDSfoyfMAMOvO5N+hTMTBLKt2NSno62hrUT1/76R46VkCuvFBs9r79VxsStbP/Zi9FRtMnpsSzn+4Dugc6jXdWukrBvVQUdtsQn8pS2VQIDAQAB</em:updateKey>
+	</Description>
+</RDF>

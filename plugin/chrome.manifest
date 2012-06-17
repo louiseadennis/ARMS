@@ -1,0 +1,4 @@
+content arms2 content/
+overlay chrome://browser/content/browser.xul chrome://arms2/content/arms2.xul
+skin arms2 classic/1.0 skin/
+style chrome://global/content/customizeToolbar.xul chrome://arms2/skin/toolbar.css

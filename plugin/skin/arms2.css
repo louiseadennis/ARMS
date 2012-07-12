@@ -1,0 +1,15 @@
+#DHPD-ARMS-Button { 
+  list-style-image: url("chrome://arms2/skin/switch.png");
+ }
+
+#DHPD-ARMS-DEV-Button { 
+  list-style-image: url("chrome://arms2/skin/switch_dev.png");
+ }
+
+#DHPD-UD-Menu { 
+  list-style-image: url("chrome://arms2/skin/ud_menu.png");
+ }
+
+#DHPD-DHPD-Menu { 
+  list-style-image: url("chrome://arms2/skin/dhpd_menu.png");
+ }

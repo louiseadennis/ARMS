@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow title="ARMS/2 Preferences"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<prefpane label="ARMS/2 Preference">
+		<preferences>
+			<preference id="arms2-enabled" name="extensions.arms2.enabled" type="bool" />
+			<preference id="arms2-hash-value" name="extensions.arms2.hashValue" type="string" />
+			<preference id="arms2-udid" name="extensions.arms2.udId" type="string" />
+		</preferences>
+		<groupbox>
+			<caption label="Settings" />
+			<grid>
+				<columns>
+					<column flex="4" />
+					<column flex="1" />
+				</columns>
+				<rows>
+					<row>
+						<label control="enabled" value="Enabled" />
+						<checkbox id="enabled" preference="arms2-enabled" />
+					</row>
+					<row>
+						<label control="hash" value="Hash value" />
+						<textbox id="hash" preference="arms2-hash-value" size="40" />
+					</row>
+					<row>
+						<label control="udid" value="Character ID" />
+						<textbox id="udid" preference="arms2-udid" size="10" />
+					</row>
+				</rows>
+			</grid>
+		</groupbox>
+	</prefpane>
+</prefwindow>

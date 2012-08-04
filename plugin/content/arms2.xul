@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://arms2/skin/arms2.css"
+                 type="text/css"?>
+
+<overlay id="Scrapper-Overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://arms2/content/arms2.js" />
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="DHPD-ARMS-Button" 
+    		tooltiptext="Toggle ARMS/2 on and off" 
+    		label="Toggle ARMS/2" oncommand="arms2.toggle()" />
+		<toolbarbutton id="DHPD-ARMS-DEV-Button" 
+    		tooltiptext="Switch to ARMS Developer Version" 
+    		label="Toggle ARMS/2 Version" oncommand="arms2.devversion()" />
+		<toolbarbutton id="DHPD-UD-Menu" type="menu"
+			label="Urban Dead"	
+			tooltiptext="General Urban Dead Links Menu">
+        	<menupopup>
+			<menuitem label="Urban Dead Home" accesskey="U"
+			tooltiptext="Go to Urban Dead Login Page"
+			oncommand="openUILinkIn('http://www.urbandead.com/map.cgi', 'tab')" />
+		<menuseparator />
+			<menuitem label="Urban Dead Wiki" accesskey="W"
+			tooltiptext="Go to Urban Dead Wiki Front Page"
+			oncommand="openUILinkIn('http://wiki.urbandead.com/index.php/Main_Page', 'tab')" />
+		<menuseparator />
+			<menuitem label="Urban Dead Map" accesskey="M"
+			tooltiptext="Go to Resensitized Map"
+			oncommand="openUILinkIn('http://dssrzs.org/map/', 'tab')" />
+		</menupopup>
+		</toolbarbutton>
+		<toolbarbutton id="DHPD-DHPD-Menu" type="menu"
+			label="DHPD"
+			tooltiptext="DHPD Links Menu">
+        	<menupopup>
+			<menuitem label="DHPD Forums" accesskey="F"
+			tooltiptext="Go to the DHPD Forums"
+			oncommand="openUILinkIn('http://dhpdforums.proboards.com/index.cgi', 'tab')" />
+		<menuseparator />
+			<menuitem label="DHPD Wiki" accesskey="W"
+			tooltiptext="Go to the DHPD Wiki Page"
+			oncommand="openUILinkIn('http://wiki.urbandead.com/index.php/DHPD', 'tab')" />
+		<menuseparator />
+			<menuitem label="Most Wanted List" accesskey="M"
+			tooltiptext="Go to the DHPD Most Wanted List"
+			oncommand="openUILinkIn('http://wiki.urbandead.com/index.php/Dunell_Hills_Police_Department/Most_Wanted', 'tab')" />
+		<menuseparator />
+			<menuitem label="Evidence Locker" accesskey="E"
+			tooltiptext="Go to the DHPD Evidence Locker"
+			oncommand="openUILinkIn('http://evidencelocker.proboards.com/index.cgi', 'tab')" />
+		<menuseparator />
+			<menuitem label="Recently Sighted Most Wanted Criminals" accesskey="R"
+			tooltiptext="Go to to a list of Recently Sighted DHPD most wanted"
+			oncommand="openUILinkIn('http://www.dennis-sellers.com/arms/mostwanted.php', 'tab')" />
+		<menuseparator />
+			<menuitem label="ARMS Admin Interface" accesskey="A"
+			tooltiptext="Go to the ARMS admin interface"
+			oncommand="openUILinkIn('http://www.dennis-sellers.com/arms/admin.php', 'tab')" />
+		</menupopup>
+		</toolbarbutton>
+	</toolbarpalette>
+	<toolbox id="navigator-toolbox">
+		<toolbar id="DHPD-Toolbar" toolbarname="DHPD Toolbar" accesskey="D"
+		class="chromeclass-toolbar" context="toolbar-context-menu"
+		customizable="true"
+		mode="icons"
+		defaultset="DHPD-ARMS-Button,DHPD-DHPD-Menu,DHPD-UD-Menu"
+		hidden="false" persist="hidden">
+	</toolbar>
+	</toolbox>
+</overlay>

@@ -5,7 +5,7 @@ Attribution-Noncommercial-No Derivative Works 3.0 United States License.
 License URL: http://creativecommons.org/licenses/by-nc-nd/3.0/us/
 Work URL: http://www.dennis-sellers.com/arms2/arms2.xpi
 */
-var arms2version = '1.3.2';
+var arms2version = '1.3.3';
 var prefMgr = Components.classes['@mozilla.org/preferences-service;1']
 	.getService(Components.interfaces.nsIPrefBranch);
 var hash, udid, tmp, tmpg, tmpr;
@@ -406,7 +406,7 @@ var arms2 =
 	     if(user != udid) return;
 
 	       // Officer Tracker Parsing
-	       var officerreq = new XMLHttpRequest();
+	  /*     var officerreq = new XMLHttpRequest();
 	       officerreq.open("GET", officerfile, false);
 	       officerreq.send(null);
 	       var officerstring = officerreq.responseText;
@@ -429,7 +429,7 @@ var arms2 =
 		   mostwanted = "none";
 	       } else {
 		   alert(mostwanted.length);
-	       }
+	       } */
 
 
 	     var gt = doc.body.innerHTML.match(
@@ -688,7 +688,7 @@ var arms2 =
 		     //		     if (ruins != 'R:') {
 		     // cades = ruins;
 		     // }
-		   }
+		   } 
 
 		 //Collate data on surrounding squares
 		 

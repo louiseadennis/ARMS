@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<RDF:Description about="urn:mozilla:extension:{F2FD0C32-523B-4e77-AC94-AE077EE7A46A}">
+	<em:updates>
+	<RDF:Seq>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.3</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>7.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2.xpi</em:updateLink>
+			<em:updateHash>sha1:9855f884627bac79e1f67f00edda69f7f7bed969"</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.4</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>7.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.4.xpi</em:updateLink>
+			<em:updateHash>sha1:e3ad2340d255103e0a7ad760eded377c2d634c4b</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.5</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>8.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.5.xpi</em:updateLink>
+			<em:updateHash>sha1:c9d80445ded48f5e40961754ac83c35f576ea22b</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.6</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>9.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.6.xpi</em:updateLink>
+			<em:updateHash>sha1:42e93c33837fd7dc7dce62d290d71e601f561b54</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.7</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>10.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.7.xpi</em:updateLink>
+			<em:updateHash>sha1:e5827f70abaed2867570455d03408e0b8e68c493</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.8</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>10.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.8.xpi</em:updateLink>
+			<em:updateHash>sha1:adf2b848c6c0ac2dcb847de170885c6ae8dc848f</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.9</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+			<em:maxVersion>12.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.9.xpi</em:updateLink>
+			<em:updateHash>sha1:cf5410dd6f8cef9dfbb295e0c73270b8f9d8e7d8</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.0.10</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>12.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.0.10.xpi</em:updateLink>
+			<em:updateHash>sha1:c5b7dda843e037598a52d1cb0ba04ad3cd60fdd3</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.1</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>12.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.1.xpi</em:updateLink>
+			<em:updateHash>sha1:662e8afde72a6ef77844ece44c14f878e90ec246</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.2</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>12.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.2.xpi</em:updateLink>
+			<em:updateHash>sha1:4447619265bdbbdb59f1740984c91f90d45c1435</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.3</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>13.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.3.xpi</em:updateLink>
+			<em:updateHash>sha1:429012bfc7b334ccaa8c73cfbc1ca0c37b1fafa4</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.3.1</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>13.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.3.1.xpi</em:updateLink>
+			<em:updateHash>sha1:1a54a09619a0894f00d4f1c0b44aa02d0a58f9eb</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.3.2</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>13.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.3.2.xpi</em:updateLink>
+			<em:updateHash>sha1:bd76aed88760803528362b323bed30942798f75b</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	<RDF:li>
+	<RDF:Description>
+		<em:version>1.3.3</em:version>
+		<em:targetApplication>
+		<RDF:Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>1.5</em:minVersion>
+	xsxc		<em:maxVersion>13.*</em:maxVersion>
+
+			<em:updateLink>https://secure.bluehost.com/~dennisse/arms/arms2/arms2-1.3.3.xpi</em:updateLink>
+			<em:updateHash>sha1:ffac7e8c0b121a2f88f9ccb17a9cfb6ec70573ae</em:updateHash>
+		</RDF:Description>
+		</em:targetApplication>
+	</RDF:Description>
+	</RDF:li>
+
+	</RDF:Seq>
+</RDF:Description>
+</RDF:RDF>
